@@ -8,10 +8,10 @@ Gem::Specification.new do |spec|
   spec.version       = Dzslides::Sass::VERSION
   spec.authors       = ["LightGuard"]
   spec.email         = ["lightguard.jp@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{A SASS version of the dzslides css}
+  spec.summary       = %q{https://github.com/seam/mail/graphs/contributors}
   spec.homepage      = ""
-  spec.license       = "MIT"
+  spec.license       = "ASL 2.0"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
@@ -19,5 +19,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.3"
+  spec.add_development_dependency "sass", "~> 3.2.7"
   spec.add_development_dependency "rake"
 end

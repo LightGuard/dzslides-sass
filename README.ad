@@ -1,26 +1,33 @@
-# Dzslides::Sass
+Dzslides::Sass
+==============
 
-TODO: Write a gem description
+// TODO: Write a gem description
 
-## Installation
+== Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'dzslides-sass'
+----
+gem 'dzslides-sass'
+----
 
 And then execute:
 
-    $ bundle
+----
+$ bundle
+----
 
 Or install it yourself as:
 
-    $ gem install dzslides-sass
+----
+$ gem install dzslides-sass
+----
 
-## Usage
+== Usage
 
-TODO: Write usage instructions here
+// Write usage instructions here
 
-## Contributing
+== Contributing
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
