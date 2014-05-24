@@ -1,0 +1,41 @@
+// Variables and functions
+
+$em-base: 16px !default;
+$position-top: 50% !default;
+$position-left: 50% !default;
+
+
+// Create em's off the pixel size passed in
+@function emCalc($px) {
+  @return $px / $em-base * 1em;
+}
+
+// Create an rem based on the pixel size passed in
+@function remCalc($px) {
+  @return $px / $em-base * 1rem;
+}
+
+/**
+ * Changes the box model using standard and proprietary properties.
+ * @param $box-sizing The box model to use content-box, border-box, padding-box (moz only)
+ */
+@mixin box-sizing($box-sizing) {
+  -moz-box-sizing: $box-sizing;
+       box-sizing: $box-sizing;
+}
+
+@mixin transform($transforms) {
+  -webkit-transform: $transforms;
+  -moz-transform: $transforms;
+  -ms-transform: $transforms;
+  -o-transform: $transforms;
+  transform: $transforms;
+}
+
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+     -moz-transition: $transition;
+      -ms-transition: $transition;
+          transition: $transition;
+}
+

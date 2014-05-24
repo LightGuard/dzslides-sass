@@ -1,0 +1,55 @@
+@import 'dzslides/global'
+
+.view {
+  body {
+    display: inline-block;
+    position: static;
+    width: 100%;
+    height: 100%;
+    margin: remCalc(0);
+    padding: remCalc(0);
+    overflow: visible;
+    overflow-x: hidden;
+    /* undo Dz.onresize */
+    @include transform(none !important);
+  }
+  head {
+    display: block;
+    > title {
+      display: block;
+    }
+  }
+  section {
+    position: static;
+    width: remCalc(800);
+    pointer-events: auto;
+    float: left;
+    opacity: 1;
+    @include transform(scale(0.4));
+
+    @media screen and (aspect-ratio: 4/3) {
+      height: remCalc(600);
+      margin-top: remCalc(-150);
+      marign-bottom: remCalc(-200);
+    }
+    @media screen and (aspect-ratio: 16/10) {
+      height: remCalc(500);
+      margin-top: remCalc(-125);
+      marign-bottom: remCalc(-125);
+    }
+    @media screen and (aspect-ratio: 16/9) {
+      height: remCalc(450);
+      margin-top: remCalc(-112);
+      marign-bottom: remCalc(-113);
+    }
+
+    /* Next Slide */
+    &[aria-selected] ~ section {
+      opacity: 1;
+    }
+  }
+  #progress-bar {
+    display: none;
+  }
+}
+

@@ -1,0 +1,13 @@
+/**
+ * Mixin to create the proper aspect size
+ */
+@mixin aspect-size($height, $aspect-factor, $margin-factor: -0.5, $include-width: false) {
+  $width: remCalc($height * $aspect-factor);
+  height: remCalc($height);
+  margin-left: remCalc($width * $margin-factor);
+  margin-top: remCalc(#{$height * $margin-factor);
+  @if $include-width == true {
+    width: remCalc($width);
+  }
+}
+

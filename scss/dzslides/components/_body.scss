@@ -1,0 +1,29 @@
+@import 'dzslides/global';
+
+body {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: remCalc(800);
+  margin-left: remCalc(-400);
+  overflow: hidden;
+
+  &.loaded {
+    display: block;
+  }
+
+  @media screen and (aspect-ratio: 4/3) {
+    height: remCalc(600);
+    margin-top: remCalc(-300);
+  }
+  @media screen and (aspect-ratio: 16/10) {
+    height: remCalc(500);
+    margin-top: remCalc(-250);
+  }
+  @media screen and (aspect-ratio: 16/10) {
+    height: remCalc(450);
+    margin-top: remCalc(-225);
+  }
+}
+

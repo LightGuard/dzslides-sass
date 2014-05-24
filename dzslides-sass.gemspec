@@ -20,5 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "sass", "~> 3.2.7"
+  spec.add_development_dependency "compass", "=> 0.12.2"
   spec.add_development_dependency "rake"
 end

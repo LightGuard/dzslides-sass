@@ -1,0 +1,16 @@
+@import 'dzslides/global'
+
+* {
+  margin:remCalc(0);
+  padding:remCalc(0);
+  @include box-sizing(border-box);
+}
+
+html {
+  overflow: hidden;
+
+  &.view {
+    overflow: visible;
+  }
+}
+

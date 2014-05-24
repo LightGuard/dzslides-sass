@@ -1,0 +1,18 @@
+// DZSlides by Paul Rouget, modified by Dan Allen and Jason Porter
+// original at https://github.com/paulrouget/dzslides
+// Original License WTFPL 2.0, relicensed to APL 2.0
+
+@charset "UTF-8";
+
+// All the files
+@import
+  "dzslides/global",
+  "dzslides/components/reset",
+  "dzslides/components/aspect",
+  "dzslides/components/body",
+  "dzslides/components/details",
+  "dzslides/components/figure",
+  "dzslides/components/incremental",
+  "dzslides/components/progress-bar",
+  "dzslides/components/section",
+  "dzslides/components/view";
