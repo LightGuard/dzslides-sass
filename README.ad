@@ -1,7 +1,6 @@
-Dzslides::Sass
-==============
+= Dzslides::Sass
 
-// TODO: Write a gem description
+This gem includes DZSlide css core, done as a sass module. I may also add in the javascript as well eventually. DZSlides is originally from Paul Rouget. Some modifications have been done by myself and Dan Allen (mojavelinux).
 
 == Installation
 
@@ -25,9 +24,17 @@ $ gem install dzslides-sass
 
 == Usage
 
-// Write usage instructions here
+Within your scss file include:
+
+----
+@import 'dzslides-core'
+----
+
+That uses the defaults (which is what regular dzslides does anyway) and you're good to go with styling!
 
 == Contributing
+
+Should you feel so inclined to follow my workflow, I'm using http://nvie.com/posts/a-successful-git-branching-model/[git-flow]
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
