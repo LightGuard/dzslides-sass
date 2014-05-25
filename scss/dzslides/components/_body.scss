@@ -1,29 +1,24 @@
 @import 'dzslides/global';
 
+.aspect-16-10 body {
+  @include aspect-size(500, (16/10));
+}
+
+.aspect-16-9 body {
+  @include aspect-size(450, (16/9));
+}
+
 body {
   display: none;
   position: absolute;
   top: 50%;
   left: 50%;
-  width: remCalc(800);
+  @include aspect-size(600, (4/3));
   margin-left: remCalc(-400);
   overflow: hidden;
 
   &.loaded {
     display: block;
-  }
-
-  @media screen and (aspect-ratio: 4/3) {
-    height: remCalc(600);
-    margin-top: remCalc(-300);
-  }
-  @media screen and (aspect-ratio: 16/10) {
-    height: remCalc(500);
-    margin-top: remCalc(-250);
-  }
-  @media screen and (aspect-ratio: 16/10) {
-    height: remCalc(450);
-    margin-top: remCalc(-225);
   }
 }
 
