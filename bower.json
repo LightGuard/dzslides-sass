@@ -1,0 +1,35 @@
+{
+  "name": "dzslides-sass",
+  "version": "0.0.1",
+  "homepage": "https://github.com/LightGuard/dzslides-sass",
+  "description": "A SASS version of dzslides",
+  "main": [
+    "js/dzslides/dzslides.js",
+    "scss/dzslides-core.scss",
+    "scss/dzslides/_global.scss",
+    "scss/dzslides/components/_aspect.scss",
+    "scss/dzslides/components/_body.scss",
+    "scss/dzslides/components/_details.scss",
+    "scss/dzslides/components/_figure.scss",
+    "scss/dzslides/components/_incremental.scss",
+    "scss/dzslides/components/_progress-bar.scss",
+    "scss/dzslides/components/_reset.scss",
+    "scss/dzslides/components/_section.scss",
+    "scss/dzslides/components/_view.scss"
+  ],
+  "keywords": [
+    "Dzslides",
+    "Sass"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "dzslides-sass.gemspec",
+    "Gemfile",
+    "Rakefile",
+    "lib",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
