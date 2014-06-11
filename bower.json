@@ -1,8 +1,13 @@
 {
   "name": "dzslides-sass",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "homepage": "https://github.com/LightGuard/dzslides-sass",
-  "description": "A SASS version of dzslides",
+  "description": "A SASS version of dzslides, an HTML5 and CSS3 slide library".,
+  "authors": [
+    "LightGuard <lightguard.jp@gmail.com>",
+    "Dan Allen <mojavelinux@gmail.com>",
+    "Paul Rouget"
+  ],
   "main": [
     "js/dzslides/dzslides.js",
     "scss/dzslides-core.scss",
@@ -18,10 +23,12 @@
     "scss/dzslides/components/_view.scss"
   ],
   "keywords": [
-    "Dzslides",
-    "Sass"
+    "DZSlides",
+    "Sass",
+    "HTML5",
+    "Presentation"
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "ignore": [
     "**/.*",
     "dzslides-sass.gemspec",
