@@ -1,0 +1,21 @@
+/* Rotate transition */
+section {
+  -webkit-transition: all 1s linear;
+     -moz-transition: all 1s linear;
+      -ms-transition: all 1s linear;
+          transition: all 1s linear;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  perspective: 1000;
+}
+/* After */
+section[aria-selected] ~ section {
+  -webkit-transform: rotateY(180deg);
+     -moz-transform: rotateY(180deg);
+      -ms-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background: black;
+  opacity: 0;
+}
+
+

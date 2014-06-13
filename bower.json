@@ -4,7 +4,7 @@
   "homepage": "https://github.com/LightGuard/dzslides-sass",
   "description": "A SASS version of dzslides, an HTML5 and CSS3 slide library".,
   "authors": [
-    "LightGuard <lightguard.jp@gmail.com>",
+    "Jason Porter <lightguard.jp@gmail.com>",
     "Dan Allen <mojavelinux@gmail.com>",
     "Paul Rouget"
   ],
@@ -20,7 +20,15 @@
     "scss/dzslides/components/_progress-bar.scss",
     "scss/dzslides/components/_reset.scss",
     "scss/dzslides/components/_section.scss",
-    "scss/dzslides/components/_view.scss"
+    "scss/dzslides/components/_view.scss",
+    "scss/dzslides/transitions/corner-zoom.scss",
+    "scss/dzslides/transitions/fade.scss",
+    "scss/dzslides/transitions/grow.scss",
+    "scss/dzslides/transitions/horizontal-flip.scss",
+    "scss/dzslides/transitions/horizontal-slide.scss",
+    "scss/dzslides/transitions/rotate.scss",
+    "scss/dzslides/transitions/vertical-flip.scss",
+    "scss/dzslides/transitions/vertical-slide.scss"
   ],
   "keywords": [
     "DZSlides",
