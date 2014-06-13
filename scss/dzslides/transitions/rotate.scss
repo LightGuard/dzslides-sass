@@ -1,0 +1,17 @@
+/* Rotate transition */
+section {
+  -webkit-transition: all 750ms ease-in-out;
+     -moz-transition: all 750ms ease-in-out;
+      -ms-transition: all 750ms ease-in-out;
+          transition: all 750ms ease-in-out;
+}
+/* After */
+section[aria-selected] ~ section {
+  -webkit-transform: rotate(360deg) scale(0,0);
+     -moz-transform: rotate(360deg) scale(0,0);
+      -ms-transform: rotate(360deg) scale(0,0);
+          transform: rotate(360deg) scale(0,0);
+  opacity: 0;
+}
+
+
