@@ -6,7 +6,7 @@ require 'dzslides/sass/version'
 Gem::Specification.new do |spec|
   spec.name          = "dzslides-sass"
   spec.version       = Dzslides::Sass::VERSION
-  spec.authors       = ["LightGuard"]
+  spec.authors       = ["Jason Porter"]
   spec.email         = ["lightguard.jp@gmail.com"]
   spec.description   = %q{A SASS version of the dzslides css}
   spec.summary       = "DZSlides core css in a simple, easy to use sass gem"
